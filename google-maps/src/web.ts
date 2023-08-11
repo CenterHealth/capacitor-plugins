@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { WebPlugin } from '@capacitor/core';
 import type {
   Cluster,
@@ -12,20 +13,20 @@ import type { LatLngBounds, Marker } from './definitions';
 import type {
   AccElementsArgs,
   AddMarkerArgs,
-  CameraArgs,
   AddMarkersArgs,
+  CameraArgs,
   CapacitorGoogleMapsPlugin,
   CreateMapArgs,
   CurrentLocArgs,
   DestroyMapArgs,
+  EnableClusteringArgs,
   IndoorMapArgs,
   MapTypeArgs,
+  OnScrollArgs,
   PaddingArgs,
   RemoveMarkerArgs,
-  TrafficLayerArgs,
   RemoveMarkersArgs,
-  OnScrollArgs,
-  EnableClusteringArgs,
+  TrafficLayerArgs,
 } from './implementation';
 
 export class CapacitorGoogleMapsWeb

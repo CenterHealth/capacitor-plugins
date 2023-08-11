@@ -869,6 +869,14 @@ The callback function to be called when map events are emitted.
 <code>(data: T): void</code>
 
 
+#### Marker
+
+util class that creates a common set of convenience functions to wrap
+shared behavior of Advanced Markers and Markers.
+
+<code>google.maps.<a href="#marker">Marker</a> | google.maps.marker.AdvancedMarkerElement</code>
+
+
 ### Enums
 
 
